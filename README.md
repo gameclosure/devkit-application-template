@@ -8,8 +8,9 @@ and a minimal Application.js file with a "Hello, world!" text view.
 
 
 You can specify a different initial template for new devkit applications
-by adding the `--template` paramater to `devkit init` and passing in a local
-folder or a git repository.
+by adding the `--git-template` paramater to `devkit init` and passing in
+a path to a git repository.
 
-`devkit init newproject --template
-https://github.com/gameclosure/devkit-application-template`
+~~~
+devkit init newproject --git-template https://github.com/gameclosure/devkit-application-template
+~~~
